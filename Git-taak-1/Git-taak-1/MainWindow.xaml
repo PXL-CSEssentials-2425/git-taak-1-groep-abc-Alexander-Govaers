@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Git_taak_1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFB2B1B1">
+        <TextBlock x:Name="Textblock_kleurenpsychologie" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="kleurenpsychologie" VerticalAlignment="Top" Height="39" Width="179" FontSize="18"/>
+
     </Grid>
 </Window>
