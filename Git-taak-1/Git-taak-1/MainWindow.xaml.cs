@@ -55,5 +55,35 @@ namespace Git_taak_1
             this.Background = new SolidColorBrush(colour);
 
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = "Rood: #FF0000";
+        }
+
+        private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = "Geel: #FFFF00";
+        }
+
+        private void Image_MouseDown_2(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = "Groen: #008000";
+        }
+
+        private void Image_MouseDown_3(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = "Blauw: #0000FF";
+        }
     }
 }

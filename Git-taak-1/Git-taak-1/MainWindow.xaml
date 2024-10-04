@@ -10,11 +10,13 @@
     <Grid>
         <TextBlock x:Name="Textblock_kleurenpsychologie" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="kleurenpsychologie" VerticalAlignment="Top" Height="76" Width="295" FontSize="18" FontWeight="Bold"/>
         <Image x:Name="Pxl_logo" Margin="585,0,-72,264" Source="/Image/pxl-logo.png" Stretch="Fill"/>
-        <Image Source="/Image/Blauw.png" Margin="394,217,184,101" MouseEnter="Image_MouseEnter_3" />
-        <Image Source="/Image/Geel.png" Margin="420,81,210,225" MouseEnter="Image_MouseEnter_1" />
-        <Image Source="/Image/Groen.png" Margin="186,212,439,96" MouseEnter="Image_MouseEnter_2" />
-        <Image Source="/Image/Rood.png" Margin="181,85,434,233" MouseEnter="Image_MouseEnter" />
-        
+        <Image Source="/Image/Blauw.png" Margin="397,217,188,101" MouseEnter="Image_MouseEnter_3" MouseDown="Image_MouseDown_3" />
+        <Image Source="/Image/Geel.png" Margin="420,81,210,225" MouseEnter="Image_MouseEnter_1" MouseDown="Image_MouseDown_1" />
+        <Image Source="/Image/Groen.png" Margin="186,212,439,96" MouseEnter="Image_MouseEnter_2" MouseDown="Image_MouseDown_2" />
+        <Image Source="/Image/Rood.png" Margin="181,85,434,233" MouseEnter="Image_MouseEnter" MouseDown="Image_MouseDown" />
+        <TextBlock x:Name="Kleurcode" HorizontalAlignment="Left" Margin="84,340,0,0" TextWrapping="Wrap" Text="Kleurcode:" VerticalAlignment="Top" Height="30" Width="100" FontSize="16"/>
+        <TextBox x:Name="kleurcode" HorizontalAlignment="Left" Margin="186,340,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="30" TextChanged="TextBox_TextChanged"/>
+
 
     </Grid>
 </Window>
