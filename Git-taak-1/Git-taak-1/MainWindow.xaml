@@ -16,6 +16,8 @@
         <Image Source="/Image/Rood.png" Margin="181,85,434,233" MouseEnter="Image_MouseEnter" MouseDown="Image_MouseDown" />
         <TextBlock x:Name="Kleurcode" HorizontalAlignment="Left" Margin="84,340,0,0" TextWrapping="Wrap" Text="Kleurcode:" VerticalAlignment="Top" Height="30" Width="100" FontSize="16"/>
         <TextBox x:Name="kleurcode" HorizontalAlignment="Left" Margin="186,340,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="30" TextChanged="TextBox_TextChanged"/>
+        <TextBlock x:Name="Informatie" HorizontalAlignment="Left" Margin="84,375,0,0" TextWrapping="Wrap" Text="Informatie:" VerticalAlignment="Top" Height="30" Width="100" FontSize="16"/>
+        <TextBox x:Name="informatieText" HorizontalAlignment="Left" Margin="186,375,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="30" TextChanged="TextBox_TextChanged"/>
 
 
     </Grid>
