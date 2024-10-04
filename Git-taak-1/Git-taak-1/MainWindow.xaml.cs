@@ -24,5 +24,10 @@ namespace Git_taak_1
         {
             InitializeComponent();
         }
+
+        private void blauw_Click(object sender, RoutedEventArgs e)
+        {
+            Pxl_logo.Visibility = Visibility.Hidden;
+        }
     }
 }
