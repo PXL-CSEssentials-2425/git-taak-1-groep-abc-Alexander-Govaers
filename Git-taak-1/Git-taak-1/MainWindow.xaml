@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FFB2B1B1">
         <TextBlock x:Name="Textblock_kleurenpsychologie" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="kleurenpsychologie" VerticalAlignment="Top" Height="76" Width="295" FontSize="18" FontWeight="Bold"/>
+        <Image x:Name="Pxl_logo" Margin="585,0,-72,264" Source="/Image/pxl-logo.png" Stretch="Fill"/>
 
     </Grid>
 </Window>
