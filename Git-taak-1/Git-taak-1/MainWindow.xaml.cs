@@ -25,9 +25,35 @@ namespace Git_taak_1
             InitializeComponent();
         }
 
-        private void blauw_Click(object sender, RoutedEventArgs e)
+
+
+        private void Image_MouseEnter(object sender, MouseEventArgs e)
         {
-            Pxl_logo.Visibility = Visibility.Hidden;
+            //this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF0000"));
+
+            Color colour = (Color)ColorConverter.ConvertFromString("#FF0000");
+            this.Background = new SolidColorBrush(colour);
+
+
+        }
+
+        private void Image_MouseEnter_1(object sender, MouseEventArgs e)
+        {
+            Color colour = (Color)ColorConverter.ConvertFromString("#FFFF00");
+            this.Background = new SolidColorBrush(colour);
+        }
+
+        private void Image_MouseEnter_2(object sender, MouseEventArgs e)
+        {
+            Color colour = (Color)ColorConverter.ConvertFromString("#008000");
+            this.Background = new SolidColorBrush(colour);
+        }
+
+        private void Image_MouseEnter_3(object sender, MouseEventArgs e)
+        {
+            Color colour = (Color)ColorConverter.ConvertFromString("#0000FF");
+            this.Background = new SolidColorBrush(colour);
+
         }
     }
 }
